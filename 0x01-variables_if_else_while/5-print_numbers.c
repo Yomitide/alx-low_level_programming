@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - code that prints all single digit of base 10
+ * main - print all string from 0 to 9
  *
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
@@ -10,5 +10,7 @@ int main(void)
 	{
 	printf("%d", n);
 	}
+
 	printf("\n");
 	return (0);
+}
