@@ -4,7 +4,7 @@
  * @str: the useless string
  * Return: a pointer to the string
  */
-char *cap_string(char *)
+char *cap_string(char *str)
 {
 	int i = 0;
 
@@ -22,7 +22,7 @@ char *cap_string(char *)
 		str[i - 1] == '?' ||
 		str[i - 1] == '"' ||
 		str[i - 1] == '(' ||
-		str[i - l] == '}' ||
+		str[i - 1] == '}' ||
 		str[i - 1] == ')' ||
 		str[i - 1] == '{' ||
 		i == 0)
