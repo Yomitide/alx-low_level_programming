@@ -2,9 +2,10 @@
 /**
  * *string_toupper - change lower case letter
  * to uppercase letter
+ * @n: stupid character
  * Return: 0
  */
-char *string_toupper(char *)
+char *string_toupper(char *n)
 {
 	int i;
 
