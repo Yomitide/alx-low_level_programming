@@ -10,7 +10,7 @@ unsigned int binary_to_uint(const char *b)
 	int x = 0;
 	unsigned int y = 0;
 
-	if (!b)
+	if (b[x] == 0)
 		return (0);
 	while ((b[x] == '0') || (b[x] == '1'))
 	{
@@ -19,5 +19,5 @@ unsigned int binary_to_uint(const char *b)
 		x++;
 	}
 
-	return (y);
+	return (0);
 }
