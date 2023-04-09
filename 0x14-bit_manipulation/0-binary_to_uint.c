@@ -19,5 +19,5 @@ unsigned int binary_to_uint(const char *b)
 		x++;
 	}
 
-	return (0);
+	return (y);
 }
